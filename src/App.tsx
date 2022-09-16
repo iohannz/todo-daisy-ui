@@ -2,10 +2,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Done from './pages/Done';
-import { useState } from 'react';
-import { DoneContext } from './interfaces/doneContext';
 import React from 'react';
-import { Provider, useSelector } from 'react-redux';
+import { Provider} from 'react-redux';
 import { store } from './store';
 import Login from './pages/Login';
 
