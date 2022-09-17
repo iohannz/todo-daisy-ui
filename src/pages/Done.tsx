@@ -5,7 +5,7 @@ import Tasks from '../components/Tasks';
 import { useDispatch, useSelector } from 'react-redux';
 
 const Done = () => {
-  const doneTasks = useSelector((state: TaskInterface) => state.doneTask.value);
+  const doneTasks = useSelector((state: any) => state.doneTask.value);
 
   const dispatch = useDispatch();
 

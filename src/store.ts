@@ -41,7 +41,7 @@ const taskSlice = createSlice({
   },
 });
 
-const doneTasks = { value: [{}] };
+const doneTasks = { value: [] };
 
 const doneTaskSlice = createSlice({
   name: 'done-tasks',
